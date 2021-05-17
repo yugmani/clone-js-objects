@@ -15,9 +15,9 @@ console.log('name2:', name2);
 
 // 1.
 const party = ['Silvia', 'Luigi', 'Alex'];
-// const party2 = party;
-// console.log('party:', party);
-// console.log('party2:', party2);
+const party2 = party;
+console.log('party:', party);
+console.log('party2:', party2);
 
 // 2.
 // party2[2] = 'Angelo';
