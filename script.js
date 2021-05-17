@@ -1,3 +1,5 @@
+// SHALLOW COPY
+
 //Primitive Values
 let name = 'Silvia';
 let name2 = name;
