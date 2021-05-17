@@ -29,3 +29,28 @@ console.log('party2:', party2);
 // party2[2] = 'Anna';
 // console.log('party:', party);
 // console.log('party2:', party2);
+
+//OBJECTS
+
+// 1.
+const groups = {
+  name: 'Silvia',
+  surname: 'White'
+};
+
+//Exact copies
+// const groups2 = groups;
+// console.log('groups:', groups);
+// console.log('groups2:', groups2);
+
+//2.
+// groups2.surname = 'Green';
+// console.log('groups:', groups);
+// console.log('groups2:', groups2);
+
+//3
+// Cloning of objects at first level
+const groups2 = Object.assign({}, groups);
+groups2.surname = 'Blue';
+console.log('groups:', groups);
+console.log('groups2:', groups2);
